@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+}
+
+form{
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    padding: 10px 5px 20px 5px;
+    margin: -50px 700px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px -7px;
+}
+
+input[type='text'], input[type='password']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+button{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pass{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: blue;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.button1{
+    width: 180px;
+    font-size: 14px;
+    background-color: rgb(33, 201, 33);
+    text-align: center;
+    cursor: pointer;
+}
+
+.celeb h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI', Arial;
+    padding: 130px 750px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.celeb h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.logo{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Roboto, "San Francisco";
+}
+
+.logo img{
+    width: 250px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.gg{
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
+ text-align: left;
+    font-size: 22px;
+}
+.gg p{
+    font-size: 17px;
+}
+
+.gg button{
+    position: absolute;
+    right: 330px;
+    background-color: #00a400;
+    font-size: 25px;
+    color: white;
+}
+
+.com{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(251, 252, 252);
+}
